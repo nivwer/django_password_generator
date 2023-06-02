@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>SHA-256</h1>
+
+<p>SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function belonging to the SHA-2 family. A hash function takes input data and generates a fixed-length output, regardless of the size of the input. SHA-256 produces a 256-bit output, which is a binary sequence of 256 ones and zeros.</p>
+
+<p>SHA-256 is widely used in computer security and cryptography, especially in applications that require data integrity. Its main goal is to produce a unique and highly improbable digest of the input data. Even a small modification in the input data should result in a completely different digest.</p>
+
+<p>SHA-256 is considered a secure and robust hash function. Some of its key features include:</p>
+
+<ul>
+    <il> 1. Collision resistance: It is extremely unlikely for two different sets of data to produce the same hash output.</il><br>
+    <il>2. Non-reversibility: It is not possible to retrieve the original input from the hash output.</il><br>
+    <il>3. Difficult to predict: A slight change in the input data should lead to a drastic change in the hash output.</il><br>
+    <il>4. Fast computation: SHA-256 is efficient and can generate the hash quickly even for large volumes of data.</il><br>
+</ul>
+
+<p>Due to its security and widespread adoption, SHA-256 is used in numerous applications such as digital signatures, password authentication, file integrity validation, and blockchain technology (e.g., in Bitcoin and other cryptocurrencies).</p>
+{% endblock %}
